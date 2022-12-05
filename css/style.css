@@ -1,0 +1,57 @@
+body {
+  background: url(../images/gulp_logo_icon_145213.png) 0% 10% no-repeat fixed,
+    url(../images/react.png) 100% 10% no-repeat fixed,
+    url(../images/Image-min.jpg) no-repeat fixed;
+  background-size: auto, auto, cover;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.task__image {
+  margin: 0 auto;
+  width: 50vw;
+  height: ;
+  overflow: visible;
+  position: relative;
+}
+.task__image img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.task__container {
+  padding-top: 500px;
+}
+.image__container {
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.task__image-item {
+  width: 30%;
+}
+.task__image-item img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  .image__container {
+    display: block;
+  }
+  .task__image-item {
+    width: 90%;
+  }
+}
+@media (max-width: 888px) {
+  body {
+    background: url(../images/gulp_logo_icon_145213.png) 0% 10% no-repeat fixed,
+      url(../images/react.png) 100% 100% no-repeat fixed,
+      url(../images/Image-min.jpg) no-repeat fixed;
+  }
+}
